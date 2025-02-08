@@ -379,6 +379,31 @@ body.dark-theme {
 .projects__card:hover .projects__modal {
   bottom: 0;
 }
+
+
+/* Fetaured Section */
+.featured-star {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  color: #ffd700;
+  font-size: 2rem;
+}
+
+.projects__card {
+  position: relative;
+}
+
+.projects__card.featured .featured-star {
+  display: block;
+}
+
+.featured-star {
+  display: none;
+}
+
+
 /*=============== SKILLS ===============*/
 
 .skills__content {
